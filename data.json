@@ -16,13 +16,6 @@
           "blurb": "A month-long celebration of Caribbean culture with music, dance, and art, culminating in a vibrant parade showcasing colorful costumes."
         },
         {
-          "name": "Jamaican Independence Day Celebration",
-          "date": "2024-08-06",
-          "location": "Mississauga, ON",
-          "website": "https://www.jamaicaday.com",
-          "blurb": "A community celebration featuring Jamaican food, music, and cultural performances to commemorate Jamaica's independence."
-        },
-        {
           "name": "Caribbean Arts and Culture Festival",
           "date": "2024-05-18",
           "location": "Brampton, ON",
@@ -41,7 +34,7 @@
         {
           "name": "Chinese New Year Parade",
           "date": "2024-02-10",
-          "location": "Chinatown, Toronto, ON",
+          "location": "Toronto, ON",
           "website": "https://www.toronto.ca/explore-enjoy/festivals-events/chinese-new-year/",
           "blurb": "A festive celebration marking the Lunar New Year with colorful parades, lion dances, and cultural performances in Toronto's Chinatown."
         },
