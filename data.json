@@ -18,21 +18,21 @@
         {
           "name": "Jamaican Independence Day Celebration",
           "date": "2024-08-06",
-          "location": "Toronto, ON",
+          "location": "Mississauga, ON",
           "website": "https://www.jamaicaday.com",
           "blurb": "A community celebration featuring Jamaican food, music, and cultural performances to commemorate Jamaica's independence."
         },
         {
           "name": "Caribbean Arts and Culture Festival",
           "date": "2024-05-18",
-          "location": "Toronto, ON",
+          "location": "Brampton, ON",
           "website": "https://www.caribbeanartsfestival.com",
           "blurb": "A festival showcasing Caribbean arts through music, dance, and visual arts, highlighting the richness of Caribbean culture."
         },
         {
           "name": "Reggae Fest",
           "date": "2024-09-01",
-          "location": "Toronto, ON",
+          "location": "Hamilton, ON",
           "website": "https://www.reggaefest.ca",
           "blurb": "A music festival celebrating reggae music with live performances from renowned artists and local talent."
         }
@@ -48,7 +48,7 @@
         {
           "name": "Mid-Autumn Festival",
           "date": "2024-09-21",
-          "location": "Toronto, ON",
+          "location": "Richmond Hill, ON",
           "website": "https://www.midautumnfestival.ca",
           "blurb": "A celebration of the harvest moon featuring lantern displays, traditional foods, and cultural performances."
         },
@@ -62,14 +62,14 @@
         {
           "name": "Chinese Lantern Festival",
           "date": "2024-02-15",
-          "location": "Toronto, ON",
+          "location": "Kitchener, ON",
           "website": "https://www.chineselanternfestival.ca",
           "blurb": "An enchanting festival featuring stunning lantern displays, traditional performances, and cultural activities."
         },
         {
           "name": "Chinese Food Festival",
           "date": "2024-08-24",
-          "location": "Toronto, ON",
+          "location": "Mississauga, ON",
           "website": "https://www.chinesefoodfestival.ca",
           "blurb": "A culinary celebration showcasing diverse Chinese cuisines with food stalls and cooking demonstrations."
         }
@@ -92,14 +92,14 @@
         {
           "name": "Holi Festival",
           "date": "2024-03-25",
-          "location": "Toronto, ON",
+          "location": "Brampton, ON",
           "website": "https://www.holifestival.ca",
           "blurb": "A colorful festival celebrating love and joy with music, dance, and the throwing of colored powders."
         },
         {
           "name": "Maha Shivratri Festival",
           "date": "2024-03-11",
-          "location": "Toronto, ON",
+          "location": "Markham, ON",
           "website": "https://www.shivratri.ca",
           "blurb": "A Hindu festival celebrating Lord Shiva, featuring prayers, cultural performances, and community gatherings."
         },
@@ -129,7 +129,7 @@
         {
           "name": "National Indigenous Peoples Day",
           "date": "2024-06-21",
-          "location": "Toronto, ON",
+          "location": "Thunder Bay, ON",
           "website": "https://www.indigenouspeoplesday.ca",
           "blurb": "A day to celebrate and honor the cultures and contributions of Indigenous peoples across Canada."
         },
@@ -159,7 +159,7 @@
         {
           "name": "Pahiyas Festival",
           "date": "2024-05-20",
-          "location": "Toronto, ON",
+          "location": "Kitchener, ON",
           "website": "https://www.pahiyasfestival.ca",
           "blurb": "A vibrant festival showcasing Filipino culture with traditional food, crafts, and performances."
         },
@@ -173,7 +173,7 @@
         {
           "name": "Filipino Food Festival",
           "date": "2024-09-15",
-          "location": "Toronto, ON",
+          "location": "Mississauga, ON",
           "website": "https://www.filipinofoodfestival.ca",
           "blurb": "A culinary festival showcasing traditional Filipino dishes, cooking demonstrations, and cultural performances."
         },
@@ -196,7 +196,7 @@
         {
           "name": "Taiwanese Cultural Festival",
           "date": "2024-08-12",
-          "location": "Toronto, ON",
+          "location": "Markham, ON",
           "website": "https://www.taiwaneseculturefestival.ca",
           "blurb": "A celebration of Taiwanese culture with food, music, and art exhibitions showcasing the beauty of Taiwan."
         },
@@ -210,7 +210,7 @@
         {
           "name": "Taiwanese Film Festival",
           "date": "2024-05-10",
-          "location": "Toronto, ON",
+          "location": "London, ON",
           "website": "https://www.taiwanesefilmfestival.ca",
           "blurb": "Showcasing the best of Taiwanese cinema with screenings, discussions, and cultural presentations."
         },
@@ -233,28 +233,28 @@
         {
           "name": "Bali Night",
           "date": "2024-07-20",
-          "location": "Toronto, ON",
+          "location": "Ottawa, ON",
           "website": "https://www.balinight.ca",
           "blurb": "An evening showcasing Balinese culture with traditional performances, crafts, and authentic cuisine."
         },
         {
           "name": "Indonesian Independence Day Celebration",
           "date": "2024-08-17",
-          "location": "Toronto, ON",
+          "location": "Brampton, ON",
           "website": "https://www.indonesianindependenceday.ca",
           "blurb": "A community gathering celebrating Indonesia's independence with cultural performances, food, and activities."
         },
         {
           "name": "Jakarta Fair",
           "date": "2024-06-10",
-          "location": "Toronto, ON",
+          "location": "Mississauga, ON",
           "website": "https://www.jakartafair.ca",
           "blurb": "A trade fair showcasing Indonesian products, culture, and entertainment, bringing the essence of Jakarta to Toronto."
         },
         {
           "name": "Indonesian Film Festival",
           "date": "2024-10-01",
-          "location": "Toronto, ON",
+          "location": "London, ON",
           "website": "https://www.indonesianfilmfestival.ca",
           "blurb": "A festival dedicated to showcasing Indonesian films, including screenings, discussions, and cultural presentations."
         }
@@ -270,14 +270,14 @@
         {
           "name": "Sri Lankan Food Festival",
           "date": "2024-05-25",
-          "location": "Toronto, ON",
+          "location": "Brampton, ON",
           "website": "https://www.srilankanfoodfestival.ca",
           "blurb": "A culinary event showcasing authentic Sri Lankan dishes, cooking demonstrations, and cultural activities."
         },
         {
           "name": "Tamil Heritage Month Celebration",
           "date": "2024-01-30",
-          "location": "Toronto, ON",
+          "location": "Markham, ON",
           "website": "https://www.tamilheritagemonth.ca",
           "blurb": "A month-long celebration featuring Tamil culture with music, dance, art exhibitions, and community events."
         }
