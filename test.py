@@ -7,3 +7,5 @@ choice2 = ['Canadian', 'Chinese', 'Japanese']
 
 cities = st.selectbox("Choose a City", choices)
 cultures = st.selectbox("What Culture Would You Like To see?", choice2)
+
+st.map()
