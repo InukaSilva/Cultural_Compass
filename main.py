@@ -103,7 +103,6 @@ def register_event():
 
 
     if st.button("ADD"):
-        print("adding to the json file hehehhehehehehehhehheheheheh")
 
         with open("data.json", "r") as f:
             data = json.load(f)
