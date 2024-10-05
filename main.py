@@ -46,10 +46,11 @@ def order_data(culture, current_city):
         date = f'Date: {i['date']}'    
         website = f'Website: {i['website']}'
         blurb = f'Decription: {i['blurb']}'
+        registration = f'Registration Type: {i['registration_type']}'
 
         lat = location[0]['geometry']["lat"]
         lng = location[0]['geometry']["lng"]
-        entry = [name, date, city, website, blurb, lat, lng]
+        entry = [name, date, city, website, blurb, registration, lat, lng]
         result.append(entry)
 
 
@@ -59,10 +60,10 @@ def order_data(culture, current_city):
 
     for s in range(len(result)):
         minimum = s
-        min = (result[s][5], result[s][6])
+        min = (result[s][6], result[s][7])
 
         for i in range(s + 1, len(result)):
-            compare = (result[i][5], result[i][6])
+            compare = (result[i][6], result[i][7])
 
             if haversine(curr_latlong, compare) < haversine(curr_latlong, min):
                 minimum = i
@@ -70,13 +71,16 @@ def order_data(culture, current_city):
     display_data(result)
 
 def display_data(result: list):
+    """
+    Displays the results onto the screen
+    """
     lat = 0
     lng = 0
     for i in result:
         for e, j in enumerate(i):
             st.write(j)
-            lat = i[5]
-            lng = i[6]
+            lat = i[6]
+            lng = i[7]
         
         map_data = pd.DataFrame({
             'lat': [lat],
@@ -101,30 +105,24 @@ def register_event():
     st.text_input("Brief Blurb about the event", key="blurb")
 
     if st.button("ADD"):
-        add(st.session_state.culture, st.session_state.name, 
-            st.session_state.date, st.session_state.location, 
-            st.session_state.website, st.session_state.blurb, 
-            st.session_state.registration)
-
-def add(name_input, culture_input, date_input, location_input, registration_input, website_input, blurb_input):
-    with open("data.json", "r") as f:
-        data = json.load(f)
+        """with open("data.json", "r") as f:
+            data = json.load(f)
             
-    for culture in data['cultural_events'].items():
-        new = {
-            "name": name_input,
-            "date": date_input,
-            "location": location_input,
-            "website": website_input,
-            "blurb": blurb_input,
-            "registration": registration_input
-        }
-    if culture_input in culture:
-        data['cultural_events'][culture_input].append(new)
-    data['cultural_events'][culture_input] = [new]
+        for culture in data['cultural_events'].items():
+            new = {
+                "name": name_input,
+                "date": date_input,
+                "location": location_input,
+                "website": website_input,
+                "blurb": blurb_input,
+                "registration": registration_input
+            }
+            if culture_input in culture:
+                data['cultural_events'][culture_input].append(new)
+        data['cultural_events'][culture_input] = [new]
             
-    with open("data.json", "w") as f2:
-        json.dump(data, f2, indent=2)
+        with open("data.json", "w") as f2:
+            json.dump(data, f2, indent=2)"""
 
 
 st.write("Culture Compass")

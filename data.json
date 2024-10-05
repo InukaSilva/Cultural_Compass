@@ -6,28 +6,32 @@
           "date": "2024-08-01",
           "location": "Toronto, ON",
           "website": "https://caribanatoronto.com",
-          "blurb": "A vibrant celebration of Caribbean culture featuring a grand parade, music, and dance that attracts millions each year."
+          "blurb": "A vibrant celebration of Caribbean culture featuring a grand parade, music, and dance that attracts millions each year.",
+          "registration_type": "Open"
         },
         {
           "name": "Toronto Caribbean Carnival",
           "date": "2024-07-28",
           "location": "Toronto, ON",
           "website": "https://torontocarnival.ca",
-          "blurb": "A month-long celebration of Caribbean culture with music, dance, and art, culminating in a vibrant parade showcasing colorful costumes."
+          "blurb": "A month-long celebration of Caribbean culture with music, dance, and art, culminating in a vibrant parade showcasing colorful costumes.",
+          "registration_type": "Open"
         },
         {
           "name": "Caribbean Arts and Culture Festival",
           "date": "2024-05-18",
           "location": "Brampton, ON",
           "website": "https://www.caribbeanartsfestival.com",
-          "blurb": "A festival showcasing Caribbean arts through music, dance, and visual arts, highlighting the richness of Caribbean culture."
+          "blurb": "A festival showcasing Caribbean arts through music, dance, and visual arts, highlighting the richness of Caribbean culture.",
+          "registration_type": "RSVP"
         },
         {
           "name": "Reggae Fest",
           "date": "2024-09-01",
           "location": "Hamilton, ON",
           "website": "https://www.reggaefest.ca",
-          "blurb": "A music festival celebrating reggae music with live performances from renowned artists and local talent."
+          "blurb": "A music festival celebrating reggae music with live performances from renowned artists and local talent.",
+          "registration_type": "RSVP"
         }
       ],
       "Chinese": [
@@ -36,35 +40,40 @@
           "date": "2024-02-10",
           "location": "Toronto, ON",
           "website": "https://www.toronto.ca/explore-enjoy/festivals-events/chinese-new-year/",
-          "blurb": "A festive celebration marking the Lunar New Year with colorful parades, lion dances, and cultural performances in Toronto's Chinatown."
+          "blurb": "A festive celebration marking the Lunar New Year with colorful parades, lion dances, and cultural performances in Toronto's Chinatown.",
+          "registration_type": "RSVP"
         },
         {
           "name": "Mid-Autumn Festival",
           "date": "2024-09-21",
           "location": "Richmond Hill, ON",
           "website": "https://www.midautumnfestival.ca",
-          "blurb": "A celebration of the harvest moon featuring lantern displays, traditional foods, and cultural performances."
+          "blurb": "A celebration of the harvest moon featuring lantern displays, traditional foods, and cultural performances.",
+          "registration_type": "Open"
         },
         {
           "name": "Dragon Boat Festival",
           "date": "2024-06-01",
           "location": "Toronto, ON",
           "website": "https://www.torontodragonboatfestival.ca",
-          "blurb": "An exciting dragon boat racing festival with cultural performances and food stalls celebrating Chinese heritage."
+          "blurb": "An exciting dragon boat racing festival with cultural performances and food stalls celebrating Chinese heritage.",
+          "registration_type": "Open"
         },
         {
           "name": "Chinese Lantern Festival",
           "date": "2024-02-15",
           "location": "Kitchener, ON",
           "website": "https://www.chineselanternfestival.ca",
-          "blurb": "An enchanting festival featuring stunning lantern displays, traditional performances, and cultural activities."
+          "blurb": "An enchanting festival featuring stunning lantern displays, traditional performances, and cultural activities.",
+          "registration_type": "RSVP"
         },
         {
           "name": "Chinese Food Festival",
           "date": "2024-08-24",
           "location": "Mississauga, ON",
           "website": "https://www.chinesefoodfestival.ca",
-          "blurb": "A culinary celebration showcasing diverse Chinese cuisines with food stalls and cooking demonstrations."
+          "blurb": "A culinary celebration showcasing diverse Chinese cuisines with food stalls and cooking demonstrations.",
+          "registration_type": "Open"
         }
       ],
       "Indian": [
@@ -73,35 +82,40 @@
           "date": "2024-10-11",
           "location": "Mississauga, ON",
           "website": "https://www.diwalifestival.ca",
-          "blurb": "A grand celebration of the Festival of Lights featuring cultural performances, food stalls, and fireworks to mark the triumph of light over darkness."
+          "blurb": "A grand celebration of the Festival of Lights featuring cultural performances, food stalls, and fireworks to mark the triumph of light over darkness.",
+          "registration_type": "RSVP"
         },
         {
           "name": "Festival of India",
           "date": "2024-08-17",
           "location": "Toronto, ON",
           "website": "https://www.festivalofindia.ca",
-          "blurb": "A vibrant celebration of Indian culture featuring performances, food, and art, highlighting the rich heritage of India."
+          "blurb": "A vibrant celebration of Indian culture featuring performances, food, and art, highlighting the rich heritage of India.",
+          "registration_type": "RSVP"
         },
         {
           "name": "Holi Festival",
           "date": "2024-03-25",
           "location": "Brampton, ON",
           "website": "https://www.holifestival.ca",
-          "blurb": "A colorful festival celebrating love and joy with music, dance, and the throwing of colored powders."
+          "blurb": "A colorful festival celebrating love and joy with music, dance, and the throwing of colored powders.",
+          "registration_type": "Open"
         },
         {
           "name": "Maha Shivratri Festival",
           "date": "2024-03-11",
           "location": "Markham, ON",
           "website": "https://www.shivratri.ca",
-          "blurb": "A Hindu festival celebrating Lord Shiva, featuring prayers, cultural performances, and community gatherings."
+          "blurb": "A Hindu festival celebrating Lord Shiva, featuring prayers, cultural performances, and community gatherings.",
+          "registration_type": "Open"
         },
         {
           "name": "Punjabi Mela",
           "date": "2024-06-15",
           "location": "Toronto, ON",
           "website": "https://www.punjabimela.ca",
-          "blurb": "A vibrant cultural festival showcasing Punjabi music, dance, and food to celebrate the rich heritage of Punjab."
+          "blurb": "A vibrant cultural festival showcasing Punjabi music, dance, and food to celebrate the rich heritage of Punjab.",
+          "registration_type": "RSVP"
         }
       ],
       "Indigenous": [
@@ -110,35 +124,40 @@
           "date": "2024-06-21",
           "location": "Toronto, ON",
           "website": "https://www.indigenousday.ca",
-          "blurb": "A day to recognize and celebrate the rich culture and contributions of Indigenous peoples in Canada."
+          "blurb": "A day to recognize and celebrate the rich culture and contributions of Indigenous peoples in Canada.",
+          "registration_type": "Open"
         },
         {
           "name": "Toronto Indigenous Cultural Festival",
           "date": "2024-07-13",
           "location": "Toronto, ON",
           "website": "https://www.indigenousculturalfestival.ca",
-          "blurb": "A celebration of Indigenous culture through art, music, dance, and storytelling."
+          "blurb": "A celebration of Indigenous culture through art, music, dance, and storytelling.",
+          "registration_type": "Open"
         },
         {
           "name": "National Indigenous Peoples Day",
           "date": "2024-06-21",
           "location": "Thunder Bay, ON",
           "website": "https://www.indigenouspeoplesday.ca",
-          "blurb": "A day to celebrate and honor the cultures and contributions of Indigenous peoples across Canada."
+          "blurb": "A day to celebrate and honor the cultures and contributions of Indigenous peoples across Canada.",
+          "registration_type": "Open"
         },
         {
           "name": "Anishinaabe Art Exhibit",
           "date": "2024-05-01",
           "location": "Toronto, ON",
           "website": "https://www.anishinaabeart.ca",
-          "blurb": "An art exhibit showcasing the works of Anishinaabe artists, highlighting traditional and contemporary pieces."
+          "blurb": "An art exhibit showcasing the works of Anishinaabe artists, highlighting traditional and contemporary pieces.",
+          "registration_type": "RSVP"
         },
         {
           "name": "Indigenous Fashion Week",
           "date": "2024-09-30",
           "location": "Toronto, ON",
           "website": "https://www.indigenousfashionweek.ca",
-          "blurb": "A showcase of Indigenous fashion designers and artists, promoting Indigenous culture through fashion."
+          "blurb": "A showcase of Indigenous fashion designers and artists, promoting Indigenous culture through fashion.",
+          "registration_type": "RSVP"
         }
       ],
       "Filipino": [
@@ -147,35 +166,40 @@
           "date": "2024-06-15",
           "location": "Toronto, ON",
           "website": "https://www.filipinoheritagemonth.ca",
-          "blurb": "A celebration of Filipino culture featuring music, dance, art, and traditional food to honor the contributions of Filipinos in Canada."
+          "blurb": "A celebration of Filipino culture featuring music, dance, art, and traditional food to honor the contributions of Filipinos in Canada.",
+          "registration_type": "Open"
         },
         {
           "name": "Pahiyas Festival",
           "date": "2024-05-20",
           "location": "Kitchener, ON",
           "website": "https://www.pahiyasfestival.ca",
-          "blurb": "A vibrant festival showcasing Filipino culture with traditional food, crafts, and performances."
+          "blurb": "A vibrant festival showcasing Filipino culture with traditional food, crafts, and performances.",
+          "registration_type": "RSVP"
         },
         {
           "name": "Buwan ng Wika",
           "date": "2024-08-01",
           "location": "Toronto, ON",
           "website": "https://www.buwan.ngwika.ca",
-          "blurb": "A celebration of Filipino language and culture with various activities promoting the richness of Filipino heritage."
+          "blurb": "A celebration of Filipino language and culture with various activities promoting the richness of Filipino heritage.",
+          "registration_type": "Open"
         },
         {
           "name": "Filipino Food Festival",
           "date": "2024-09-15",
           "location": "Mississauga, ON",
           "website": "https://www.filipinofoodfestival.ca",
-          "blurb": "A culinary festival showcasing traditional Filipino dishes, cooking demonstrations, and cultural performances."
+          "blurb": "A culinary festival showcasing traditional Filipino dishes, cooking demonstrations, and cultural performances.",
+          "registration_type": "Open"
         },
         {
           "name": "Kultura Festival",
           "date": "2024-10-05",
           "location": "Toronto, ON",
           "website": "https://www.kulturafestival.ca",
-          "blurb": "A festival celebrating Filipino arts and culture through music, dance, and visual arts."
+          "blurb": "A festival celebrating Filipino arts and culture through music, dance, and visual arts.",
+          "registration_type": "RSVP"
         }
       ],
       "Taiwanese": [
@@ -184,35 +208,40 @@
           "date": "2024-07-05",
           "location": "Toronto, ON",
           "website": "https://www.taiwanesenightmarket.ca",
-          "blurb": "A lively night market featuring traditional Taiwanese street food, games, and cultural performances."
+          "blurb": "A lively night market featuring traditional Taiwanese street food, games, and cultural performances.",
+          "registration_type": "Open"
         },
         {
           "name": "Taiwanese Cultural Festival",
           "date": "2024-08-12",
           "location": "Markham, ON",
           "website": "https://www.taiwaneseculturefestival.ca",
-          "blurb": "A celebration of Taiwanese culture with food, music, and art exhibitions showcasing the beauty of Taiwan."
+          "blurb": "A celebration of Taiwanese culture with food, music, and art exhibitions showcasing the beauty of Taiwan.",
+          "registration_type": "RSVP"
         },
         {
           "name": "Taiwan Lantern Festival",
           "date": "2024-02-25",
           "location": "Toronto, ON",
           "website": "https://www.taiwanlanternfestival.ca",
-          "blurb": "An enchanting festival featuring beautiful lantern displays, traditional performances, and Taiwanese food."
+          "blurb": "An enchanting festival featuring beautiful lantern displays, traditional performances, and Taiwanese food.",
+          "registration_type": "RSVP"
         },
         {
           "name": "Taiwanese Film Festival",
           "date": "2024-05-10",
           "location": "London, ON",
           "website": "https://www.taiwanesefilmfestival.ca",
-          "blurb": "Showcasing the best of Taiwanese cinema with screenings, discussions, and cultural presentations."
+          "blurb": "Showcasing the best of Taiwanese cinema with screenings, discussions, and cultural presentations.",
+          "registration_type": "RSVP"
         },
         {
           "name": "Taiwanese Pop Music Night",
           "date": "2024-09-15",
           "location": "Toronto, ON",
           "website": "https://www.taiwanesepopmusicnight.ca",
-          "blurb": "A night of live performances featuring popular Taiwanese music artists and cultural dance presentations."
+          "blurb": "A night of live performances featuring popular Taiwanese music artists and cultural dance presentations.",
+          "registration_type": "Open"
         }
       ],
       "Indonesian": [
@@ -221,35 +250,40 @@
           "date": "2024-05-05",
           "location": "Toronto, ON",
           "website": "https://www.indonesianculturalfestival.ca",
-          "blurb": "A celebration of Indonesian culture featuring traditional dances, music, and food stalls."
+          "blurb": "A celebration of Indonesian culture featuring traditional dances, music, and food stalls.",
+          "registration_type": "Open"
         },
         {
           "name": "Bali Night",
           "date": "2024-07-20",
           "location": "Ottawa, ON",
           "website": "https://www.balinight.ca",
-          "blurb": "An evening showcasing Balinese culture with traditional performances, crafts, and authentic cuisine."
+          "blurb": "An evening showcasing Balinese culture with traditional performances, crafts, and authentic cuisine.",
+          "registration_type": "RSVP"
         },
         {
           "name": "Indonesian Independence Day Celebration",
           "date": "2024-08-17",
           "location": "Brampton, ON",
           "website": "https://www.indonesianindependenceday.ca",
-          "blurb": "A community gathering celebrating Indonesia's independence with cultural performances, food, and activities."
+          "blurb": "A community gathering celebrating Indonesia's independence with cultural performances, food, and activities.",
+          "registration_type": "Open"
         },
         {
           "name": "Jakarta Fair",
           "date": "2024-06-10",
           "location": "Mississauga, ON",
           "website": "https://www.jakartafair.ca",
-          "blurb": "A trade fair showcasing Indonesian products, culture, and entertainment, bringing the essence of Jakarta to Toronto."
+          "blurb": "A trade fair showcasing Indonesian products, culture, and entertainment, bringing the essence of Jakarta to Toronto.",
+          "registration_type": "RSVP"
         },
         {
           "name": "Indonesian Film Festival",
           "date": "2024-10-01",
           "location": "London, ON",
           "website": "https://www.indonesianfilmfestival.ca",
-          "blurb": "A festival dedicated to showcasing Indonesian films, including screenings, discussions, and cultural presentations."
+          "blurb": "A festival dedicated to showcasing Indonesian films, including screenings, discussions, and cultural presentations.",
+          "registration_type": "RSVP"
         }
       ],
       "Sri Lankan": [
@@ -258,21 +292,24 @@
           "date": "2024-04-14",
           "location": "Toronto, ON",
           "website": "https://www.srilankannewyear.ca",
-          "blurb": "A celebration of the Sinhala and Tamil New Year featuring traditional food, music, and cultural performances."
+          "blurb": "A celebration of the Sinhala and Tamil New Year featuring traditional food, music, and cultural performances.",
+          "registration_type": "Open"
         },
         {
           "name": "Sri Lankan Food Festival",
           "date": "2024-05-25",
           "location": "Brampton, ON",
           "website": "https://www.srilankanfoodfestival.ca",
-          "blurb": "A culinary event showcasing authentic Sri Lankan dishes, cooking demonstrations, and cultural activities."
+          "blurb": "A culinary event showcasing authentic Sri Lankan dishes, cooking demonstrations, and cultural activities.",
+          "registration_type": "Open"
         },
         {
           "name": "Tamil Heritage Month Celebration",
           "date": "2024-01-30",
           "location": "Markham, ON",
           "website": "https://www.tamilheritagemonth.ca",
-          "blurb": "A month-long celebration featuring Tamil culture with music, dance, art exhibitions, and community events."
+          "blurb": "A month-long celebration featuring Tamil culture with music, dance, art exhibitions, and community events.",
+          "registration_type": "RSVP"
         }
       ]
     }
