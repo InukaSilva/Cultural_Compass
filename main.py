@@ -7,6 +7,7 @@ def search():
     else:
         st.session_state.postal_code 
         st.session_state.culture
+        st.map(latitude="100", longitude="100")
 
 
 st.set_page_config(
