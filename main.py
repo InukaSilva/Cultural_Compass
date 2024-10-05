@@ -1,23 +1,22 @@
 import streamlit as st
-from openai import openAI
-import Constants
+from openai import OpenAI
+import os
 
 
-def set_up_model():
-    with st.sidebar:
-        openai_api_key = st.text_input("OpenAI API Key", key=Constants.OpenAI, type="password")
+def set_up_model(culture: str) -> str:
+    return "THIS ISN'T SUPPOSE TO BE HERE"
 
 
-    st.title("Research")
+
 
 def search():
     if st.session_state.postal_code == "" or st.session_state.culture == "":
         st.write("Please Enter Values")
     else:
-        st.session_state.postal_code 
-        st.session_state.culture
+        postal_code = st.session_state.postal_code 
+        culture = st.session_state.culture
         st.map(latitude="100", longitude="100")
-        set_up_model()
+        set_up_model(culture)
 
 
 st.set_page_config(
