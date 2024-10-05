@@ -46,10 +46,11 @@ def order_data(culture, current_city):
         date = f'Date: {i['date']}'    
         website = f'Website: {i['website']}'
         blurb = f'Decription: {i['blurb']}'
+        registration = f'Registration Type: {i['registration_type']}'
 
         lat = location[0]['geometry']["lat"]
         lng = location[0]['geometry']["lng"]
-        entry = [name, date, city, website, blurb, lat, lng]
+        entry = [name, date, city, website, blurb, registration, lat, lng]
         result.append(entry)
 
 
@@ -59,10 +60,10 @@ def order_data(culture, current_city):
 
     for s in range(len(result)):
         minimum = s
-        min = (result[s][5], result[s][6])
+        min = (result[s][6], result[s][7])
 
         for i in range(s + 1, len(result)):
-            compare = (result[i][5], result[i][6])
+            compare = (result[i][6], result[i][7])
 
             if haversine(curr_latlong, compare) < haversine(curr_latlong, min):
                 minimum = i
@@ -75,8 +76,8 @@ def display_data(result: list):
     for i in result:
         for e, j in enumerate(i):
             st.write(j)
-            lat = i[5]
-            lng = i[6]
+            lat = i[6]
+            lng = i[7]
         
         map_data = pd.DataFrame({
             'lat': [lat],
