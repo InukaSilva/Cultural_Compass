@@ -96,20 +96,18 @@ def register_event():
     Creates a form for the organizer of an event to add a event to the database.
     """
         
-    name_input=st.text_input("Name", key="name")
-    culture_input=st.text_input("Culture", key="culture")
-    date_input=st.text_input("Date (YYYY-MM-DD)", key="date")
-    location_input=st.text_input("Location (City, Province Initals)", key="location")
-    registration_input=st.text_input("Registration Type (Open or RSVP)", key="registration")
-    website_input=st.text_input("Website (optional)", key="website")
-    blurb_input=st.text_input("Brief Blurb about the event", key="blurb")
+    st.text_input("Name", key="name")
+    st.text_input("Culture", key="culture")
+    st.text_input("Date (YYYY-MM-DD)", key="date")
+    st.text_input("Location (City, Province Initals)", key="location")
+    st.text_input("Registration Type (Open or RSVP)", key="registration")
+    st.text_input("Website (optional)", key="website")
+    st.text_input("Brief Blurb about the event", key="blurb")
 
 
 
     if st.button("ADD"):
-        print("adding to the json file hehehhehehehehehhehheheheheh")
-
-        with open("data.json", "r") as f:
+        """with open("data.json", "r") as f:
             data = json.load(f)
             
         for culture in data['cultural_events'].items():
@@ -117,18 +115,16 @@ def register_event():
                 "name": name_input,
                 "date": date_input,
                 "location": location_input,
-                "registration": registration_input,
                 "website": website_input,
-                "blurb": blurb_input
+                "blurb": blurb_input,
+                "registration": registration_input
             }
             if culture_input in culture:
                 data['cultural_events'][culture_input].append(new)
         data['cultural_events'][culture_input] = [new]
             
-                
-
         with open("data.json", "w") as f2:
-            json.dump(data, f2, indent=2)
+            json.dump(data, f2, indent=2)"""
 
 
 
