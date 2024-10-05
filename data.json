@@ -7,7 +7,7 @@
           "location": "Toronto, ON",
           "website": "https://caribanatoronto.com",
           "blurb": "A vibrant celebration of Caribbean culture featuring a grand parade, music, and dance that attracts millions each year.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Toronto Caribbean Carnival",
@@ -15,7 +15,7 @@
           "location": "Toronto, ON",
           "website": "https://torontocarnival.ca",
           "blurb": "A month-long celebration of Caribbean culture with music, dance, and art, culminating in a vibrant parade showcasing colorful costumes.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Caribbean Arts and Culture Festival",
@@ -49,7 +49,7 @@
           "location": "Richmond Hill, ON",
           "website": "https://www.midautumnfestival.ca",
           "blurb": "A celebration of the harvest moon featuring lantern displays, traditional foods, and cultural performances.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Dragon Boat Festival",
@@ -57,7 +57,7 @@
           "location": "Toronto, ON",
           "website": "https://www.torontodragonboatfestival.ca",
           "blurb": "An exciting dragon boat racing festival with cultural performances and food stalls celebrating Chinese heritage.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Chinese Lantern Festival",
@@ -73,7 +73,7 @@
           "location": "Mississauga, ON",
           "website": "https://www.chinesefoodfestival.ca",
           "blurb": "A culinary celebration showcasing diverse Chinese cuisines with food stalls and cooking demonstrations.",
-          "registration_type": "open"
+          "registration_type": "Open"
         }
       ],
       "Indian": [
@@ -99,7 +99,7 @@
           "location": "Brampton, ON",
           "website": "https://www.holifestival.ca",
           "blurb": "A colorful festival celebrating love and joy with music, dance, and the throwing of colored powders.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Maha Shivratri Festival",
@@ -107,7 +107,7 @@
           "location": "Markham, ON",
           "website": "https://www.shivratri.ca",
           "blurb": "A Hindu festival celebrating Lord Shiva, featuring prayers, cultural performances, and community gatherings.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Punjabi Mela",
@@ -125,7 +125,7 @@
           "location": "Toronto, ON",
           "website": "https://www.indigenousday.ca",
           "blurb": "A day to recognize and celebrate the rich culture and contributions of Indigenous peoples in Canada.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Toronto Indigenous Cultural Festival",
@@ -133,7 +133,7 @@
           "location": "Toronto, ON",
           "website": "https://www.indigenousculturalfestival.ca",
           "blurb": "A celebration of Indigenous culture through art, music, dance, and storytelling.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "National Indigenous Peoples Day",
@@ -141,7 +141,7 @@
           "location": "Thunder Bay, ON",
           "website": "https://www.indigenouspeoplesday.ca",
           "blurb": "A day to celebrate and honor the cultures and contributions of Indigenous peoples across Canada.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Anishinaabe Art Exhibit",
@@ -167,7 +167,7 @@
           "location": "Toronto, ON",
           "website": "https://www.filipinoheritagemonth.ca",
           "blurb": "A celebration of Filipino culture featuring music, dance, art, and traditional food to honor the contributions of Filipinos in Canada.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Pahiyas Festival",
@@ -183,7 +183,7 @@
           "location": "Toronto, ON",
           "website": "https://www.buwan.ngwika.ca",
           "blurb": "A celebration of Filipino language and culture with various activities promoting the richness of Filipino heritage.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Filipino Food Festival",
@@ -191,7 +191,7 @@
           "location": "Mississauga, ON",
           "website": "https://www.filipinofoodfestival.ca",
           "blurb": "A culinary festival showcasing traditional Filipino dishes, cooking demonstrations, and cultural performances.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Kultura Festival",
@@ -209,7 +209,7 @@
           "location": "Toronto, ON",
           "website": "https://www.taiwanesenightmarket.ca",
           "blurb": "A lively night market featuring traditional Taiwanese street food, games, and cultural performances.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Taiwanese Cultural Festival",
@@ -241,7 +241,7 @@
           "location": "Toronto, ON",
           "website": "https://www.taiwanesepopmusicnight.ca",
           "blurb": "A night of live performances featuring popular Taiwanese music artists and cultural dance presentations.",
-          "registration_type": "open"
+          "registration_type": "Open"
         }
       ],
       "Indonesian": [
@@ -251,7 +251,7 @@
           "location": "Toronto, ON",
           "website": "https://www.indonesianculturalfestival.ca",
           "blurb": "A celebration of Indonesian culture featuring traditional dances, music, and food stalls.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Bali Night",
@@ -267,7 +267,7 @@
           "location": "Brampton, ON",
           "website": "https://www.indonesianindependenceday.ca",
           "blurb": "A community gathering celebrating Indonesia's independence with cultural performances, food, and activities.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Jakarta Fair",
@@ -293,7 +293,7 @@
           "location": "Toronto, ON",
           "website": "https://www.srilankannewyear.ca",
           "blurb": "A celebration of the Sinhala and Tamil New Year featuring traditional food, music, and cultural performances.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Sri Lankan Food Festival",
@@ -301,7 +301,7 @@
           "location": "Brampton, ON",
           "website": "https://www.srilankanfoodfestival.ca",
           "blurb": "A culinary event showcasing authentic Sri Lankan dishes, cooking demonstrations, and cultural activities.",
-          "registration_type": "open"
+          "registration_type": "Open"
         },
         {
           "name": "Tamil Heritage Month Celebration",

@@ -71,6 +71,9 @@ def order_data(culture, current_city):
     display_data(result)
 
 def display_data(result: list):
+    """
+    Displays the results onto the screen
+    """
     lat = 0
     lng = 0
     for i in result:
@@ -101,7 +104,7 @@ def register_event():
     if st.button("Add"):
         st.write("HEHEHE")
 
-    # take data and store in json file using correct format
+
 
 st.write("Culture Compass")
 st.text_input("City", key="city")
