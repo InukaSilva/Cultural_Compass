@@ -104,8 +104,6 @@ def register_event():
     st.text_input("Website (optional)", key="website")
     st.text_input("Brief Blurb about the event", key="blurb")
 
-
-
     if st.button("ADD"):
         """with open("data.json", "r") as f:
             data = json.load(f)
@@ -125,8 +123,6 @@ def register_event():
             
         with open("data.json", "w") as f2:
             json.dump(data, f2, indent=2)"""
-
-
 
 
 st.write("Culture Compass")
