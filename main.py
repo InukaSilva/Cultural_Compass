@@ -3,6 +3,8 @@ import json
 import os
 from dotenv import load_dotenv
 from opencage.geocoder import OpenCageGeocode
+import pandas as pd
+from haversine import haversine, Unit
 
 # Loads the API key so that data can be pulled for the location
 load_dotenv()
@@ -23,20 +25,67 @@ def get_search_inputs():
     if st.session_state.city == "" or st.session_state.culturesearch == "":
         st.write("Please Enter Both Values")
     else:
-        display_data(str(st.session_state.culturesearch))
+        order_data(st.session_state.culturesearch, st.session_state.city)
 
-def display_data(culture):
+def order_data(culture, current_city):
     
+    # Opens Json File
     with open('data.json', 'r') as file:
         data = json.load(file)
+
+
+    # Populates results
+    result = []
     for i in data["cultural_events"][culture]:
 
         geocoder = OpenCageGeocode(api_key)
 
         location = geocoder.geocode(i['location'])
-    
-        st.write(i)
-        st.map(latitude=location[0]['geometry']["lat"], longitude=location[0]['geometry']['lng'])
+        name = f'Event Name: {i['name']}'
+        city = f'Location: {i['location']}'
+        date = f'Date: {i['date']}'    
+        website = f'Website: {i['website']}'
+        blurb = f'Decription: {i['blurb']}'
+
+        lat = location[0]['geometry']["lat"]
+        lng = location[0]['geometry']["lng"]
+        entry = [name, date, city, website, blurb, lat, lng]
+        result.append(entry)
+
+
+    # sort it based on distance
+    current_location = geocoder.geocode(current_city)
+    curr_latlong = (current_location[0]['geometry']["lat"], current_location[0]['geometry']["lng"])
+
+    for s in range(len(result)):
+        minimum = s
+        min = (result[s][5], result[s][6])
+
+        for i in range(s + 1, len(result)):
+            compare = (result[i][5], result[i][6])
+
+            if haversine(curr_latlong, compare) < haversine(curr_latlong, min):
+                minimum = i
+                result[s], result[minimum] = result[minimum], result[s]
+    display_data(result)
+
+def display_data(result: list):
+    lat = 0
+    lng = 0
+    for i in result:
+        for e, j in enumerate(i):
+            st.write(j)
+            lat = i[5]
+            lng = i[6]
+        
+        map_data = pd.DataFrame({
+            'lat': [lat],
+            'lon': [lng]
+        })
+
+        st.map(data=map_data, color='#FF0000', size=15, zoom=13)
+        st.write("-----------------------------------------------------------------------------")
+
 
 def register_event():
     """
@@ -48,6 +97,8 @@ def register_event():
     st.text_input("Registration Type (Open or RSVP)", key="registration")
     st.text_input("Website (optional)", key="website")
     st.text_input("Brief Blurb about the event", key="blurb")
+    if st.button("Add"):
+        st.write("HEHEHE")
 
     # take data and store in json file using correct format
 
@@ -59,6 +110,3 @@ if st.button("Search"):
 
 if st.button("Add Cultural Event"):
     register_event()
-
-
-
