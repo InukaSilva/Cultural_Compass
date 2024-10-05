@@ -48,8 +48,8 @@ def register_event():
     st.text_input("Registration Type (Open or RSVP)", key="registration")
     st.text_input("Website (optional)", key="website")
     st.text_input("Brief Blurb about the event", key="blurb")
-
     # take data and store in json file using correct format
+
 
 st.write("Culture Compass")
 st.text_input("City", key="city")
