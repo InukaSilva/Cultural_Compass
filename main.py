@@ -17,7 +17,6 @@ st.set_page_config(
         page_title="Culture Compass",
 )
 
-
 def get_search_inputs():
     """
     Gets the inputs from the text box for the search
@@ -90,46 +89,51 @@ def display_data(result: list):
         st.map(data=map_data, color='#FF0000', size=15, zoom=13)
         st.write("-----------------------------------------------------------------------------")
 
-
 def register_event():
     """
-    Creates a form for the organizer of an event to add a event to the database.
+    Creates a form for the organizer of an event to add an event to the database.
     """
-        
-    st.text_input("Name", key="name")
-    st.text_input("Culture", key="culture")
-    st.text_input("Date (YYYY-MM-DD)", key="date")
-    st.text_input("Location (City, Province Initals)", key="location")
-    st.text_input("Registration Type (Open or RSVP)", key="registration")
-    st.text_input("Website (optional)", key="website")
-    st.text_input("Brief Blurb about the event", key="blurb")
-
+ 
     if st.button("ADD"):
-        """with open("data.json", "r") as f:
-            data = json.load(f)
-            
-        for culture in data['cultural_events'].items():
-            new = {
-                "name": name_input,
-                "date": date_input,
-                "location": location_input,
-                "website": website_input,
-                "blurb": blurb_input,
-                "registration": registration_input
+        if st.session_state.name != "" and st.session_state.date != "" and st.session_state.location != "" and st.session_state.website != "" and st.session_state.blurb != "" and st.session_state.registration != "":
+            new_event = {
+                "name": st.session_state.name,
+                "date": st.session_state.date,
+                "location": st.session_state.location,
+                "website": st.session_state.website,
+                "blurb": st.session_state.blurb,
+                "registration": st.session_state.registration,
             }
-            if culture_input in culture:
-                data['cultural_events'][culture_input].append(new)
-        data['cultural_events'][culture_input] = [new]
-            
-        with open("data.json", "w") as f2:
-            json.dump(data, f2, indent=2)"""
 
+            with open("data.json", "r") as f:
+                data = json.load(f)
 
+            culture_input = st.session_state.culture
+            if culture_input in data['cultural_events']:
+                data['cultural_events'][culture_input].append(new_event)
+            else:
+                data['cultural_events'][culture_input] = [new_event]
+
+            with open("data.json", "w") as f2:
+                json.dump(data, f2, indent=2)
+                
 st.write("Culture Compass")
 st.text_input("City", key="city")
 st.text_input("Culture", key="culturesearch")
+
 if st.button("Search"):
     get_search_inputs()
-
-if st.button("Add Cultural Event"):
+    
+with st.expander('Add Event'):
+    st.text_input("Name", key="name")
+    st.text_input("Culture", key="culture")
+    st.text_input("Date (YYYY-MM-DD)", key="date")
+    st.text_input("Location (City, Province Initials)", key="location")
+    st.text_input("Registration Type (Open or RSVP)", key="registration")
+    st.text_input("Website (optional)", key="website")
+    st.text_input("Brief Blurb about the event", key="blurb")
     register_event()
+
+
+
+
