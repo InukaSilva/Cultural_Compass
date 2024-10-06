@@ -77,7 +77,8 @@ def display_data(result: list):
     lng = 0
     for i in result:
         for e, j in enumerate(i):
-            st.write(j)
+            if e < 6:
+                st.write(j)
             lat = i[6]
             lng = i[7]
         
@@ -94,7 +95,7 @@ def register_event():
     Creates a form for the organizer of an event to add an event to the database.
     """
  
-    if st.button("ADD"):
+    if st.button("ADD", use_container_width=True):
         if st.session_state.name != "" and st.session_state.date != "" and st.session_state.location != "" and st.session_state.website != "" and st.session_state.blurb != "" and st.session_state.registration != "":
             new_event = {
                 "name": st.session_state.name,
@@ -116,12 +117,21 @@ def register_event():
 
             with open("data.json", "w") as f2:
                 json.dump(data, f2, indent=2)
-                
-st.write("Culture Compass")
-st.text_input("City", key="city")
-st.text_input("Culture", key="culturesearch")
 
-if st.button("Search"):
+title = '<p style ="color:White; font-size:72px; text-align: center;">Culture Ↄompass</p>'
+st.markdown(title, unsafe_allow_html=True)
+slogan = '<p style ="text-align: center; color:White; "><i>Discover what celebrates YOU</i></p>'
+st.markdown(slogan, unsafe_allow_html=True)
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.text_input("City", key="city", placeholder="City",label_visibility="hidden")
+
+with col2:
+    st.text_input("Culture", key="culturesearch", placeholder="Culture", label_visibility="hidden")
+
+if st.button("Search", use_container_width=True):
     get_search_inputs()
     
 with st.expander('Add Event'):
@@ -131,7 +141,7 @@ with st.expander('Add Event'):
     st.text_input("Location (City, Province Initials)", key="location")
     st.text_input("Registration Type (Open or RSVP)", key="registration")
     st.text_input("Website (optional)", key="website")
-    st.text_input("Brief Blurb about the event", key="blurb")
+    st.text_input("Brief Description about the event", key="blurb")
     register_event()
 
 
