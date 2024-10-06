@@ -147,7 +147,3 @@ with st.expander('Add Event'):
     st.text_input("Website (optional)", key="website")
     st.text_input("Brief Description about the event", key="blurb")
     register_event()
-
-
-
-
