@@ -107,7 +107,7 @@ def register_event():
                 "location": st.session_state.location,
                 "website": st.session_state.website,
                 "blurb": st.session_state.blurb,
-                "registration": st.session_state.registration,
+                "registration_type": st.session_state.registration,
             }
 
             with open("data.json", "r") as f:
