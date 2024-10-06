@@ -27,8 +27,10 @@ def get_search_inputs():
         order_data(st.session_state.culturesearch, st.session_state.city)
 
 def order_data(culture, current_city):
-    
-    # Opens Json File
+    """
+    Reads the data from the json file, and gets all the information needed. 
+    Then orders the results from closest to farthest away
+    """
     with open('data.json', 'r') as file:
         data = json.load(file)
 
