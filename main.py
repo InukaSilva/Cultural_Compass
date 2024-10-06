@@ -32,42 +32,44 @@ def order_data(culture, current_city):
     with open('data.json', 'r') as file:
         data = json.load(file)
 
+    if culture not in data["cultural_events"]:
+        st.write("That is not in our Data Base Currently")
+    else:
+        # Populates results
+        result = []
+        for i in data["cultural_events"][culture]:
 
-    # Populates results
-    result = []
-    for i in data["cultural_events"][culture]:
+            geocoder = OpenCageGeocode(api_key)
 
-        geocoder = OpenCageGeocode(api_key)
+            location = geocoder.geocode(i['location'])
+            name = f'Event Name: {i['name']}'
+            city = f'Location: {i['location']}'
+            date = f'Date: {i['date']}'    
+            website = f'Website: {i['website']}'
+            blurb = f'Decription: {i['blurb']}'
+            registration = f'Registration Type: {i['registration_type']}'
 
-        location = geocoder.geocode(i['location'])
-        name = f'Event Name: {i['name']}'
-        city = f'Location: {i['location']}'
-        date = f'Date: {i['date']}'    
-        website = f'Website: {i['website']}'
-        blurb = f'Decription: {i['blurb']}'
-        registration = f'Registration Type: {i['registration_type']}'
-
-        lat = location[0]['geometry']["lat"]
-        lng = location[0]['geometry']["lng"]
-        entry = [name, date, city, website, blurb, registration, lat, lng]
-        result.append(entry)
+            lat = location[0]['geometry']["lat"]
+            lng = location[0]['geometry']["lng"]
+            entry = [name, date, city, website, blurb, registration, lat, lng]
+            result.append(entry)
 
 
-    # sort it based on distance
-    current_location = geocoder.geocode(current_city)
-    curr_latlong = (current_location[0]['geometry']["lat"], current_location[0]['geometry']["lng"])
+        # sort it based on distance
+        current_location = geocoder.geocode(current_city)
+        curr_latlong = (current_location[0]['geometry']["lat"], current_location[0]['geometry']["lng"])
 
-    for s in range(len(result)):
-        minimum = s
-        min = (result[s][6], result[s][7])
+        for s in range(len(result)):
+            minimum = s
+            min = (result[s][6], result[s][7])
 
-        for i in range(s + 1, len(result)):
-            compare = (result[i][6], result[i][7])
+            for i in range(s + 1, len(result)):
+                compare = (result[i][6], result[i][7])
 
-            if haversine(curr_latlong, compare) < haversine(curr_latlong, min):
-                minimum = i
-                result[s], result[minimum] = result[minimum], result[s]
-    display_data(result)
+                if haversine(curr_latlong, compare) < haversine(curr_latlong, min):
+                    minimum = i
+                    result[s], result[minimum] = result[minimum], result[s]
+        display_data(result)
 
 def display_data(result: list):
     """
