@@ -116,11 +116,11 @@ def register_event():
             culture_input = st.session_state.culture
             if culture_input in data['cultural_events']:
                 data['cultural_events'][culture_input].append(new_event)
-            else:
-                data['cultural_events'][culture_input] = [new_event]
 
-            with open("data.json", "w") as f2:
-                json.dump(data, f2, indent=2)
+        data['cultural_events'][culture_input] = [new_event]
+
+        with open("data.json", "w") as f2:
+            json.dump(data, f2, indent=2)
 
 title = '<p style ="color:White; font-size:72px; text-align: center;">Culture Ↄompass</p>'
 st.markdown(title, unsafe_allow_html=True)
